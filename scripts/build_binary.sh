@@ -156,7 +156,7 @@ mkdir "$INSTALLDIR"
     then
 
         cd "$INSTALLDIR"
-        LIBLIST="libgcrypt.so libtasn1.so libgnutls.so libuuid.so libnettle.so libhogweed.so libidn2.so"
+        LIBLIST="libgcrypt.so libtasn1.so libgnutls.so libuuid.so libnettle.so libhogweed.so libidn2.so libunistring.so libstdc++.so"
         DIRLIST="usr/bin lib/private"
 
         LIBPATH=""
